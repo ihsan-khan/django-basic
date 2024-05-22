@@ -1,9 +1,31 @@
+  html, body {
+    height: 100%;
+    margin: 0;
+
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #161616;
     font-family: Arial, sans-serif;
     color: #fff;
-  }
+}
 
   h1 {
     text-align: center;
   }
+
+  nav {
+    margin: 10px 10px;
+  }
+
+.content {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
